@@ -10,10 +10,23 @@ header h1
 	font-size: 50px;
 }
 
-.menu
+.sommaire
 {
 	text-align: center;
+	margin-bottom: 20px;
+	line-height: 10px;
 
+}
+
+.images
+{
+	width: 500px;
+	height: 500px;
+}
+
+div p
+{
+	float: right;
 }
 
 aside h2
@@ -21,7 +34,7 @@ aside h2
 	text-align: center;
 }
 
-#navigation
+ul
 {
 	border: 2px;
 	text-align: left;
@@ -61,27 +74,27 @@ table
 	float: center;
 }
 
-section img
-{
-	padding-left: -10px;
-}
 section aside
 {
-	height: 100%;
+	vertical-align: top;
+	margin-left: 30px;
 	border: 1px solid black;
-	float: left;
 	box-shadow: 4px 4px 0px 0px #aaa;
+	display: inline-block;
+	width: 15%;
 }
 section article
 {
 	border-top: 1px solid black;
-	padding-left: 30px;
+	border-left: 1px solid black;
+	padding-left: 15px;
 	padding-right: 10px;
 	box-shadow: 4px 4px 0px 0px #aaa;
 	display: inline-block;
 	text-align: justify;
-	width: 87%;
+	width: 79%;
 }
+
 /*
 .legend
 {
