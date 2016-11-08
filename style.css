@@ -2,12 +2,15 @@ body
 {
 	font-family: 'Cormorant Garamond', serif;
 	font-family: 'Proza Libre', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header h1
 {
 	text-align: center;
 	font-size: 50px;
+	color: 
 }
 
 .sommaire
@@ -24,6 +27,8 @@ header h1
 	height: 500px;
 }
 
+.images p
+}
 div p
 {
 	float: right;
@@ -51,10 +56,16 @@ ul
 
 .plan
 {
+	margin: 40px;
 	display: inline;
 	width: 400px;
 }
 
+.planville
+{
+	width: 800px;
+	height: 600px;
+}
 
 #historique
 {
@@ -95,6 +106,31 @@ section article
 	width: 79%;
 }
 
+a:hover
+{
+	color: red;
+	text-decoration: none;
+
+}
+
+a
+{
+	text-decoration: none;
+	font-size: 30px;
+	color: #F1A245;
+}
+
+.lien
+{
+	display: inline-block;
+	text-align: left;
+}
+
+.lien2
+{
+	display: inline-block;
+	text-align: left;
+}
 /*
 .legend
 {
