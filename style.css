@@ -106,6 +106,14 @@ section article
 	width: 79%;
 }
 
+section
+{
+	display: flex;
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
 a:hover
 {
 	color: red;
